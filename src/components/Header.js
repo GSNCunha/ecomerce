@@ -7,20 +7,24 @@ class Header extends Component {
       return (
 
 
-        <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn reacti
-        </a>
-      </header>
+        <header id="home">
+
+        <nav id="nav-wrap">
+  
+           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+  
+           <ul id="nav" className="nav">
+              <li className="current"><a className="smoothscroll" href="#home">Collections</a></li>
+              <li><a className="smoothscroll" href="#Man">Man</a></li>
+              <li><a className="smoothscroll" href="#Woman">Woman</a></li>
+              <li><a className="smoothscroll" href="#About">About</a></li>
+              <li><a className="smoothscroll" href="#contact">Contact</a></li>
+              
+           </ul>
+  
+        </nav>
+     </header>
           );
         }
       }
