@@ -1,13 +1,15 @@
 
-li {
-   display: inline-block;
-}
 .App
 {
 
-  width: 80%;
+  max-width: 1440px;
+  min-width:900px;
   margin: auto;
 
+}
+/*/////////////////////HEADER///////////////////////*/
+li {
+  display: inline-block;
 }
 .container
 {
@@ -15,6 +17,7 @@ li {
   grid-template-columns: 200px 80px 80px 80px 80px 80px auto 3% 8%;
   gap: 10px;
   height: 15vh;
+  min-height: 70px;
   border-bottom: 2px solid gray;
 }
 .container div
@@ -41,7 +44,7 @@ li {
 {
   color:black;
   border-bottom: 4px solid Orange;
-  padding: 63px 0;
+  padding: 6.6vh 0;
   
 }
 .photo
@@ -52,8 +55,74 @@ li {
 .buycar:hover
 {
   border-bottom: 4px solid Orange;
-  padding: 60px 0;  
+  padding: 6.3vh 0;  
 }
+/*/////////////////////PRODUCT///////////////////////*/
+
+.container2
+{
+  min-height: 500px;
+  max-width: 1050px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 60vh;
+}
+
+.container3
+{
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+.container4
+{
+  display: grid;
+  grid-template-columns: 4% 23% 23% 23% 23% 4%;
   
-
-
+}
+.mainproduct
+{
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  background-color: black;
+  border-radius: 5%;
+}
+.product{
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  background-color: black;
+  border-radius: 10%;
+}
+.space
+{
+  background-color: white;
+}
+.textSpacing
+{
+  width: 85%;
+  margin-top: 15%;
+  margin-left: 15%;
+  height: 85%;
+}
+.sneakerCompany
+{
+  color: orange;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+}
+.title
+{
+  font-size: 50px;
+}
+.paragraph
+{
+  font-size: 16px;
+  color: gray;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+}
