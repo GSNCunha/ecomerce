@@ -11,23 +11,39 @@ li {
   font-family: 'Kumbh Sans', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color:gray
+  color:gray;
+  padding: 50px 0;
+
+  
 }
+
+
 .smoothscroll:hover
 {
   color:black;
+  border-bottom: 4px solid Orange;
+  padding: 46px 0;
+  
 }
 .sneakers
 {
-  margin-right: 20px;
+  margin-right: 50px;
+  padding: 46px 0;
 }
 
+.car
+{
+  padding: 48px 0;
 
-
+}
+.car:hover
+{
+  border-bottom: 4px solid Orange;
+  padding: 44px 0;
+}
 .right
 {
   float: right;
-  padding-left: 10%;
 }
 
 .left
@@ -40,19 +56,23 @@ li {
   width: 80%;
   margin: auto;
 
-  height: 100px;
-  border-bottom: 1px solid yellow;
-  text-align: center;
-  justify-content: center;
-}
-.avatar
-{
-  border: 1px solid yellow;
 }
 .nav
 {
+  height: 115px;
+  border-bottom: 1px solid gray;
   letter-spacing: 2px;
 }
+.avatar
+{
+  border: 2px solid Orange;
+  border-radius: 100%;
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-top: 25px;
+
+}
+
 
 
 
