@@ -2,54 +2,6 @@
 li {
    display: inline-block;
 }
-
-.smoothscroll
-{
-
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 400;
-  text-decoration: none;
-  color:gray;
-  padding: 50px 0;
-
-  
-}
-
-
-.smoothscroll:hover
-{
-  color:black;
-  border-bottom: 4px solid Orange;
-  padding: 46px 0;
-  
-}
-.sneakers
-{
-  margin-right: 50px;
-  padding: 46px 0;
-}
-
-.car
-{
-  padding: 48px 0;
-
-}
-.car:hover
-{
-  border-bottom: 4px solid Orange;
-  padding: 44px 0;
-}
-.right
-{
-  float: right;
-}
-
-.left
-{
-  float:left
-}
 .App
 {
 
@@ -57,22 +9,51 @@ li {
   margin: auto;
 
 }
-.nav
+.container
 {
-  height: 115px;
-  border-bottom: 1px solid gray;
-  letter-spacing: 2px;
+  display: grid;
+  grid-template-columns: 200px 80px 80px 80px 80px 80px auto 3% 8%;
+  gap: 10px;
+  height: 15vh;
+  border-bottom: 2px solid gray;
 }
-.avatar
+.container div
+{
+  text-align: center;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.obj
+{
+  float: center;
+  padding-left: 5px;
+  margin-right: auto;
+}
+.option
+{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color:gray;
+}
+
+.option:hover
+{
+  color:black;
+  border-bottom: 4px solid Orange;
+  padding: 63px 0;
+  
+}
+.photo
 {
   border: 2px solid Orange;
   border-radius: 100%;
-  margin-right: 30px;
-  margin-left: 40px;
-  margin-top: 25px;
-
 }
-
-
+.buycar:hover
+{
+  border-bottom: 4px solid Orange;
+  padding: 60px 0;  
+}
+  
 
 
