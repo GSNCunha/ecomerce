@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
 
-import Header from './Components/Header';
-import Product from './Components/Product';
+import Header from './components/Header';
+import Product from './components/Product';
 
 
 class App extends Component {

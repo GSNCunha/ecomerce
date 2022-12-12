@@ -8,29 +8,34 @@
 
 }
 /*/////////////////////HEADER///////////////////////*/
-li {
-  display: inline-block;
-}
+
 .container
 {
-  display: grid;
-  grid-template-columns: 200px 80px 80px 80px 80px 80px auto 3% 8%;
-  gap: 10px;
+  display: flex;
   height: 15vh;
   min-height: 70px;
   border-bottom: 2px solid gray;
+  align-items: stretch;
+
 }
-.container div
+.space
 {
-  text-align: center;
-  margin-top:auto;
-  margin-bottom: auto;
+  
 }
+
 .obj
 {
-  float: center;
-  padding-left: 5px;
-  margin-right: auto;
+  align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.select:hover{
+border-bottom: 4px solid Orange;
+}
+.push
+{
+  margin-left: auto;
 }
 .option
 {
@@ -38,25 +43,19 @@ li {
   font-weight: 700;
   text-decoration: none;
   color:gray;
+
 }
 
 .option:hover
 {
   color:black;
-  border-bottom: 4px solid Orange;
-  padding: 6.6vh 0;
-  
 }
-.photo
+.photo:hover
 {
   border: 2px solid Orange;
   border-radius: 100%;
 }
-.buycar:hover
-{
-  border-bottom: 4px solid Orange;
-  padding: 6.3vh 0;  
-}
+
 /*/////////////////////PRODUCT///////////////////////*/
 
 .container2
