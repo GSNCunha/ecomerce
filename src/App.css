@@ -139,13 +139,13 @@ border-top: 4px solid transparent;
 }
 .a
 {
-  display: flex;
+display: flex;
 width: 160px;
 height: 30px;
 }
 .price{
   display: flex;
-  width: 100px ;
+  flex-basis: 62.5%;
   height: 30px ;
   margin-bottom: 30px;
 }
@@ -160,8 +160,8 @@ height: 30px;
 .discount
 {
 display: flex;
-  width: 60px;
-  border-radius: 15%;
+flex-basis: 37.5%;
+  border-radius: 5px;
   height: 30px;
   background-color: hsl(25, 100%, 94%);
   color: hsl(26, 100%, 55%);
@@ -188,4 +188,54 @@ display: flex;
 .linetextspacing
 {
   margin-top: 20px;
+}
+.cartcontainer
+{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.numerOfItems
+{
+border-radius: 10px;
+background-color: hsl(223, 64%, 98%);
+height: 50px;
+margin-top: 20px;
+flex-basis: 40%;
+
+}
+.AddToCart
+{
+  display: flex;
+border-radius: 10px;
+background-color: hsl(26, 100%, 55%);
+height: 50px;
+margin-top: 20px;
+flex-basis: 55%;
+}
+.AddToCart:hover
+{
+  filter: opacity(50%);
+}
+.TextCart
+{
+  margin: auto;
+  color: hsl(0, 0%, 100%);
+}
+.cartLogo
+{
+  margin-right: 15px;
+}
+.numerOfItems
+{
+  display: flex;
+}
+.plus{
+  display: flex;
+  flex-basis: 33%;
+}
+.textPlus
+{
+  margin:auto;
+  color :hsl(26, 100%, 55%);
 }
