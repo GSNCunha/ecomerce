@@ -12,7 +12,7 @@
 .container
 {
   display: flex;
-  height: 15vh;
+  height: 10vh;
   min-height: 70px;
   border-bottom: 2px solid gray;
   align-items: stretch;
@@ -31,7 +31,12 @@
     margin-right: 20px;
 }
 .select:hover{
+  border-bottom: 4px solid;
+border-top: 4px solid;
+}
+.select:hover{
 border-bottom: 4px solid Orange;
+border-top: 4px solid transparent;
 }
 .push
 {
@@ -50,9 +55,14 @@ border-bottom: 4px solid Orange;
 {
   color:black;
 }
+.photo
+{
+
+  border-radius: 100%;
+}
 .photo:hover
 {
-  border: 2px solid Orange;
+  outline: 2px solid Orange;
   border-radius: 100%;
 }
 
