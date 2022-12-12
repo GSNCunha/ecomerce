@@ -3,7 +3,7 @@
 {
 
   max-width: 1440px;
-  min-width:900px;
+  min-width:810px;
   margin: auto;
 
 }
@@ -18,17 +18,17 @@
   align-items: stretch;
 
 }
-.space
-{
-  
-}
 
 .obj
 {
   align-items: center;
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
+}
+.lastobj
+{
+    align-items: center;
+    display: flex;
 }
 .select:hover{
   border-bottom: 4px solid;
@@ -55,12 +55,12 @@ border-top: 4px solid transparent;
 {
   color:black;
 }
-.photo
+.photoAvatar
 {
 
   border-radius: 100%;
 }
-.photo:hover
+.photoAvatar:hover
 {
   outline: 2px solid Orange;
   border-radius: 100%;
@@ -70,50 +70,57 @@ border-top: 4px solid transparent;
 
 .container2
 {
-  min-height: 500px;
   max-width: 1050px;
   margin: auto;
+  margin-top: 100px;
   display: grid;
-  grid-template-columns: 50% 50%;
-  height: 60vh;
+  grid-template-columns: 480px auto;
 }
 
 .container3
 {
   display: grid;
-  grid-template-rows: 80% 20%;
+  grid-template-rows: 480px 100px;
+  grid-row-gap: 27px;
 }
 
 .container4
 {
-  display: grid;
-  grid-template-columns: 4% 23% 23% 23% 23% 4%;
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .mainproduct
 {
-  height: 90%;
-  width: 90%;
-  margin: auto;
-  margin-top: 3%;
-  background-color: black;
-  border-radius: 5%;
-}
-.product{
-  height: 90%;
-  width: 90%;
-  margin: auto;
-  margin-top: 3%;
-  background-color: black;
+  height: 480px;
+  width: 480px;
+  background-color: orange;
   border-radius: 10%;
 }
-.space
+.photoMain
 {
-  background-color: white;
+  border-radius: 4%;
+}
+.product{
+  height: 100px;
+  width: 100px;
+
+  border-radius: 10%;
+}
+.product:hover
+{
+  outline: 2px solid Orange;
+}
+.photoProduct
+{
+  border-radius: 10%;
+}
+.photoProduct:hover{
+  filter: opacity(20%);
 }
 .textSpacing
 {
-  width: 85%;
+
   margin-top: 15%;
   margin-left: 15%;
   height: 85%;
