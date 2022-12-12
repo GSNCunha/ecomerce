@@ -32,9 +32,12 @@ class Header extends Component {
           </div>
           <div>
             <div className='textSpacing'>
-              <h4 className='sneakerCompany'>SNEAKER COMPANY</h4>
-              <h1 className='title'>Fall Limited Sneakers</h1>
-              <h6 className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </h6>
+              <h4 className='sneakerCompany text'>SNEAKER COMPANY</h4>
+              <h1 className='title text'>Fall Limited Edition Sneakers</h1>
+              <p className='paragraph text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              <div className='a'><div className='price'><p className='priceText'>$125</p></div><div className='discount'><p className='textdiscount'>50%</p></div></div>
+              <div className='linetextspacing'><h7 className="line">$150</h7></div>
+              <div className='cartcontainer'><div className='numerOfItems'></div><div className='AddToCart'></div></div>
             </div>
           </div>
         </div>

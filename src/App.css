@@ -7,6 +7,9 @@
   margin: auto;
 
 }
+.text{
+  font-family:[Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans), sans-serif;
+}
 /*/////////////////////HEADER///////////////////////*/
 
 .container
@@ -35,7 +38,7 @@
 border-top: 4px solid;
 }
 .select:hover{
-border-bottom: 4px solid Orange;
+border-bottom: 4px solid hsl(26, 100%, 55%);
 border-top: 4px solid transparent;
 }
 .push
@@ -44,8 +47,7 @@ border-top: 4px solid transparent;
 }
 .option
 {
-  font-family: 'Kumbh Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: none;
   color:gray;
 
@@ -62,7 +64,7 @@ border-top: 4px solid transparent;
 }
 .photoAvatar:hover
 {
-  outline: 2px solid Orange;
+  outline: 2px solid hsl(26, 100%, 55%);
   border-radius: 100%;
 }
 
@@ -79,6 +81,7 @@ border-top: 4px solid transparent;
 
 .container3
 {
+  margin-left: 10px;
   display: grid;
   grid-template-rows: 480px 100px;
   grid-row-gap: 27px;
@@ -94,7 +97,7 @@ border-top: 4px solid transparent;
 {
   height: 480px;
   width: 480px;
-  background-color: orange;
+  background-color: hsl(26, 100%, 55%);
   border-radius: 10%;
 }
 .photoMain
@@ -109,7 +112,7 @@ border-top: 4px solid transparent;
 }
 .product:hover
 {
-  outline: 2px solid Orange;
+  outline: 2px solid hsl(26, 100%, 55%);
 }
 .photoProduct
 {
@@ -127,18 +130,62 @@ border-top: 4px solid transparent;
 }
 .sneakerCompany
 {
-  color: orange;
-  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(26, 100%, 55%);
   font-weight: 700;
 }
 .title
 {
-  font-size: 50px;
+  font-size: 40px;
+}
+.a
+{
+  display: flex;
+width: 160px;
+height: 30px;
+}
+.price{
+  display: flex;
+  width: 100px ;
+  height: 30px ;
+  margin-bottom: 30px;
+}
+.priceText
+{
+  margin-top: auto;
+  margin-bottom: auto;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+.discount
+{
+display: flex;
+  width: 60px;
+  border-radius: 15%;
+  height: 30px;
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+}
+.textdiscount
+{
+  margin: auto;
 }
 .paragraph
 {
   font-size: 16px;
   color: gray;
-  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.line
+{
+  text-decoration: line-through;
+  color: gray;
+  font-size: 20px;
   font-weight: 700;
+}
+.linetextspacing
+{
+  margin-top: 20px;
 }
